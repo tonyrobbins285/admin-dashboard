@@ -216,7 +216,7 @@ function ColorModeContextProvider({ children }) {
 	);
 }
 
-export { ColorModeContext, ColorModeContextProvider };
+export { ColorModeContext, ColorModeContextProvider, tokens };
 
 // const colorMode = useMemo(() =>
 // 	({

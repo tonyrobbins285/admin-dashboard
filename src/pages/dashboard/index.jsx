@@ -1,6 +1,13 @@
-import React from "react"
+import React from "react";
+import { Box, Typography } from "@mui/material";
+import Header from "../../components/Header";
+
 function Dashboard() {
-   return <div>Dashboard</div>
+	return (
+		<Box>
+			<Header title="Dashboard" />
+		</Box>
+	);
 }
 
-export default Dashboard
+export default Dashboard;
