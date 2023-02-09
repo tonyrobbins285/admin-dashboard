@@ -138,7 +138,7 @@ function Form() {
                     />
                 </Box>
                 <Box display="flex" justifyContent="end" marginTop="20px">
-                    <Button color="secondary" variant="contained" type="submit">
+                    <Button sx={{fontSize: "20px"}} color="secondary" variant="contained" type="submit">
                         CREATE NEW USER
                     </Button>
                 </Box>
