@@ -9,12 +9,12 @@ import Team from "./pages/team"
 import Contacts from "./pages/contacts";
 import Invoices from "./pages/invoices";
 import Form from "./pages/form";
+import Calendar from "./pages/calendar";
 // import Bar from "./pages/bar";
 // import Line from "./pages/line";
 // import Pie from "./pages/pie";
 // import FAQ from "./pages/faq";
 // import Geography from "./pages/geography";
-// import Calendar from "./pages/calendar";
 function App() {
 	return (
 		<ColorModeContextProvider>
@@ -30,12 +30,12 @@ function App() {
 						<Route path="/contacts" element={<Contacts />} />
 						<Route path="/invoices" element={<Invoices />} />
 						<Route path="/form" element={<Form />} />
+						<Route path="/calendar" element={<Calendar />} />
 						{/* <Route path="/bar" element={<Bar />} /> */}
 						{/* <Route path="/pie" element={<Pie />} /> */}
 						{/* <Route path="/line" element={<Line />} /> */}
 						{/* <Route path="/faq" element={<FAQ />} /> */}
 						{/* <Route path="/geography" element={<Geography />} /> */}
-						{/* <Route path="/calendar" element={<Calendar />} /> */}
 					</Routes>
 				</main>
 			</div>
